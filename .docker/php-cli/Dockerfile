@@ -10,5 +10,7 @@ RUN install-php-extensions bcmath  \
 
 RUN curl --silent --show-error https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 RUN mv "$PHP_INI_DIR/php.ini-development" "$PHP_INI_DIR/php.ini"
+COPY xdebug.ini "$PHP_INI_DIR/conf.d/"
+
 
 WORKDIR "/var/www/app"

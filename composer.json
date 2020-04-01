@@ -6,8 +6,14 @@
             "email": "zalex@zalex.com.ua"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/http-foundation": "^5.0",
+        "ext-xdebug": "*"
+    },
     "autoload": {
-        "psr-4": {"Zanin\\": "src/"}
+        "psr-4": {
+            "Zanin\\": "src/",
+            "Tests\\": "tests/"
+        }
     }
 }
