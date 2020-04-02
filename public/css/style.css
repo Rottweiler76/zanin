@@ -213,10 +213,11 @@ color:rgb(255, 255, 255);
         position: static;
     }
 }
-@media (max-width: 800px)
-{.toggleMenu {
-	background: #c29f4d;
-	font-size: 1.5em;
+@media (max-width: 800px) {
+	.toggleMenu {
+		background: #c29f4d;
+		font-size: 1.5em;
+	}
 }
 @media screen and (max-width: 640px) {
 	.toggleMenu {
