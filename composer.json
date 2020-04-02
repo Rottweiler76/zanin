@@ -1,0 +1,13 @@
+{
+    "name": "zalex/zanin",
+    "authors": [
+        {
+            "name": "zalex",
+            "email": "zalex@zalex.com.ua"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Zanin\\": "src/"}
+    }
+}
