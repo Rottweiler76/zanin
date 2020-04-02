@@ -1,9 +1,4 @@
-/*
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
-*/
+
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -302,7 +297,7 @@ color:rgb(255, 255, 255);
 }
 .header-top h1 {
 	font-size: 3.2em;
-	color: rgb(20, 32, 136);
+	color: rgb(250, 0, 0);
 	font-weight: 600;
 	margin: 15px 0px 0px 0px;
 	letter-spacing: 4px;
@@ -451,7 +446,7 @@ color:rgb(255, 255, 255);
 }
 .project-bottom {
 	position: absolute;
-	text-align: center;
+	text-align: left;
 	top: 78%;
 	left: 25%;
 }
