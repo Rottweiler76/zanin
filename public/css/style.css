@@ -109,7 +109,7 @@ body a{
 	padding: 10px 20px;
 	display: block;
 	color: #555;
-	background: #fff;
+	background: rgb(71, 168, 26);
 	position: relative;
 	z-index: 9999;
 	font-weight: normal;
@@ -213,12 +213,12 @@ color:rgb(255, 255, 255);
         position: static;
     }
 }
-@media (max-width: 800px)
+@media (max-width: 800px) {}
 .toggleMenu {
-	background: #c29f4d;
+	background: #992525;
 	font-size: 1.5em;
 	}
-}
+
 @media screen and (max-width: 640px) {
 	.toggleMenu {
 		width:100%;
@@ -291,14 +291,14 @@ color:rgb(255, 255, 255);
 }
 .header-top h2 {
 	font-size: 1.3em;
-	color: rgb(250, 0, 0);
+	color: #da1212;
 	letter-spacing: 2px;
 	font-weight: 700;
 	margin: 9% 0px 0px 0px;
 }
 .header-top h1 {
 	font-size: 3.2em;
-	color: rgb(250, 0, 0);
+	color: #da1212;
 	font-weight: 600;
 	margin: 15px 0px 0px 0px;
 	letter-spacing: 4px;
@@ -875,7 +875,7 @@ color:rgb(255, 255, 255);
 /*--end-quality--*/
 /*--start-contact--*/
 .touch{
-	background:#e1e1e1;
+	background:#bebebe;
 	padding:7em 0px;
 }
 .touch-left form input[type="text"]:hover,
